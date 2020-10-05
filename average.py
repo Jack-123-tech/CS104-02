@@ -8,14 +8,8 @@ average=0.0
 numberOfScores=input("Please enter the number of scoures you want average:")
 #Add a loop to make this code repeat until scoreCount = numberOfScores
 #scoreCount less than numberOfScores
-while
-score=int(input("Please enter a score:"))
-total= total + score
-scoreCount=scoreCount + 1
-
-
-
-
-
-average=total / numberOfScores
-print(average)
+while (scoreCount!=numberOfScores):
+	score=int(input("Please enter a score:"))
+	total= total + score
+	scoreCount=scoreCount + 1
+	average=total / numberOfScores
